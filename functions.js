@@ -29,6 +29,7 @@ function sum (x, y) {
 }
 
 console.log(sum);
+console.log("use numbers");
 
 
 // Q2
@@ -40,6 +41,7 @@ function avg (x, y, z) {
 }
 
 console.log(avg)
+console.log("use numbers");
 
 
 // Q3
@@ -51,6 +53,7 @@ function getLength (item) {
 }
 
 console.log(getLength);
+console.log("use a string");
 
 
 // Q4
@@ -70,6 +73,7 @@ function greaterThan (x, y) {
 }
 
 console.log(greaterThan);
+console.log("use a number");
 // Q5
 // Write a function called `greet` that takes a
 // single parameter and returns a string that
@@ -81,6 +85,7 @@ function greet (name) {
 }
 
 console.log(greet);
+console.log("use a string");
 
 
 // Q6
@@ -100,6 +105,7 @@ function madlib (properNoun, adjective, color, object) {
 }
 
 console.log(madlib);
+console.log("use strings that correnspond with the parts of speech in the params");
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
