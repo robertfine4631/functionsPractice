@@ -95,7 +95,11 @@ console.log(greet);
 // sentence: "quick brown fox jumps over the fence"
 
 
+function madlib (properNoun, adjective, color, object) {
+  return properNoun + " is a " + adjective + " developer. His favorite item is a " + color + " " +object + " that he carries with him everyday!";
+}
 
+console.log(madlib);
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
