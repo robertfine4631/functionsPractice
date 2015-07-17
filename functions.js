@@ -60,8 +60,16 @@ console.log(getLength);
 // the function should return `false`.
 
 
+function greaterThan (x, y) {
+  if ( y > x ) {
+    return "true";
+  }
+  else if ( x < y ) {
+    return "false";
+  }
+}
 
-
+console.log(greaterThan);
 // Q5
 // Write a function called `greet` that takes a
 // single parameter and returns a string that
