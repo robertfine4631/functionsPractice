@@ -76,7 +76,11 @@ console.log(greaterThan);
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
+function greet (name) {
+  return 'Hello, ' + name + '!';
+}
 
+console.log(greet);
 
 
 // Q6
