@@ -46,7 +46,11 @@ console.log(avg)
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
+function getLength (item) {
+  return item.length;
+}
 
+console.log(getLength);
 
 
 // Q4
