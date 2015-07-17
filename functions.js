@@ -64,7 +64,7 @@ function greaterThan (x, y) {
   if ( y > x ) {
     return "true";
   }
-  else if ( x < y ) {
+  else {
     return "false";
   }
 }
